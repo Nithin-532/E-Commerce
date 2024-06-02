@@ -1,6 +1,65 @@
 .second-header {
-  display: flex;
-  align-items: center;
-  padding: 0px 14px;
   background-color: #cf2e2e;   
 }
+
+.styled-component {
+  color: white;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.styled-component:hover { background-color: rgba(0, 0, 0, 0.1); color: white; }
+
+.styled-component:active {
+  border: none;
+}
+
+/* Remove border and prevent text color change on open */
+.custom-dropdown-toggle {
+  border: none !important;
+  color: inherit !important;
+}
+
+/* Custom dropdown menu */
+/* .custom-dropdown-menu {
+  border: none !important;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+.btn-group.show .custom-dropdown-menu {
+  max-height: 300px;
+} */
+
+/* Custom styles for the button */
+.btn.styled-component {
+  border: none;
+  color: #fff;
+}
+
+/* Custom styles for the button when active or dropdown open */
+.btn.styled-component.dropdown-toggle:focus,
+.btn.styled-component.dropdown-toggle:active,
+.btn.styled-component.dropdown-toggle.show {
+  box-shadow: none;
+  color: #fff; 
+}
+
+.btn.styled-component.dropdown-toggle:active {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+/* Custom styles for dropdown items */
+.dropdown-menu .dropdown-item {
+  color: #000; /* Text color for dropdown items */
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #f8f9fa; /* Background color for hover and focus */
+  color: #000; /* Text color for hover and focus */
+}
+
+

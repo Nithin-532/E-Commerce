@@ -14,3 +14,11 @@ i.bi {
 .me-3 {
   margin-right: 1rem;
 }
+
+.bg-color-light-grey {
+  background-color: #f8f8f8;
+}
+
+p {
+  font-size: 14px;
+}
