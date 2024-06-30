@@ -10,7 +10,7 @@ const ContactSection = () => {
         <div className="row justify-content-between d-none d-lg-flex g-4">
           <div className="col-md-4 text-start ">
             <img src="path-to-your-logo.png" alt="Panna Computers Logo" className="img-fluid mb-3" />
-            <h2>BuyAndSellLaptops</h2>
+            <h2>Buy&SellLaptops</h2>
             <p className="text-muted">BEGINNING OF NEW DIGITAL WORLD</p>
             <div>
               <h5>Got Questions? Call us 24/7</h5>

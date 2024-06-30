@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import { ICONS } from '../../assets';
 
-const Header = () => {
+const Header = ({ toggleSideBar }) => {
   return (
     <>
       {/* Larger screens */}
@@ -40,13 +40,18 @@ const Header = () => {
       {/* Smaller screens */}
       <div className='d-flex flex-column d-lg-none p-3 gap-2'>
         <div className="d-flex justify-content-between align-items-center">
-          <div className="navbar-brand d-flex align-items-center logo ps-2 pe-2">
-            <img
-              src="path-to-logo.png"
-              height="30"
-              className="d-inline-block align-top"
-              alt="Panna Computer's"
-            />
+          <div className='d-flex align-items-center'>
+            <button className="btn btn-secondary" onClick={toggleSideBar}>
+              ☰
+            </button>
+            <div className="navbar-brand d-flex align-items-center logo ps-2 pe-2">
+              <img
+                src="path-to-logo.png"
+                height="30"
+                className="d-inline-block align-top"
+                alt="Panna Computer's"
+              />
+            </div>
           </div>
           <div className="d-flex align-items-center">
             <a href="#" className="nav-link d-flex align-items-center">

@@ -1,8 +1,8 @@
 import "./SecondHeader.css";
 
-const SecondHeader = () => {
+const SecondHeader = ({ isOpen }) => {
   return (
-    <div className="second-header d-flex ps-5 align-items-center">
+    <div className={`second-header ${isOpen ? 'open' : 'closed'} d-md-flex ps-5 align-items-center`}>
       <StyledComponent>
         <a>Home</a>
       </StyledComponent>
