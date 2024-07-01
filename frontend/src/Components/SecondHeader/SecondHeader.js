@@ -1,10 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import "./SecondHeader.css";
 
-const SecondHeader = ({ isOpen }) => {
+const SecondHeader = ({ isOpen, navigate }) => {
   return (
     <div className={`second-header ${isOpen ? 'open' : 'closed'} d-md-flex ps-5 align-items-center`}>
       <StyledComponent>
-        <a>Home</a>
+        <a onClick={() => navigate("/")}>Home</a>
       </StyledComponent>
       <div className="btn-group">
         <button type="button" className="btn styled-component dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,7 +42,7 @@ const SecondHeader = ({ isOpen }) => {
         </ul>
       </div>
       <StyledComponent>
-        <a>About Us</a>
+        <a onClick={() => navigate("/aboutUs")}>About Us</a>
       </StyledComponent>
       <StyledComponent>
         <a>FAQ's</a>
@@ -50,7 +51,7 @@ const SecondHeader = ({ isOpen }) => {
         <a>Blog</a>
       </StyledComponent> */}
       <StyledComponent>
-        <a>Contact</a>
+        <a onClick={() => navigate("/contact")}>Contact</a>
       </StyledComponent>
     </div>
   )
