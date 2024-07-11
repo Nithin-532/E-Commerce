@@ -28,11 +28,11 @@ export default function Contact() {
           <div className="row mt-5">
             <div className="col-12">
               <h2>Our Address</h2>
-              <p>123 Main Street, Anytown, Anywhere. Phone: +1234567890</p>
+              <p>123 Main Street, Anytown, Anywhere. Phone: +91 9742097199</p>
             </div>
             <div className='col-12'>
-              <p className='m-0'>Please Call us: +91 70307 03101 /+91 96 0490 0311</p>
-              <p>Email: <span><a href='mailto:info@pcshoppe.in' style={{ color: '#333e48', textDecoration: 'none' }}>info@pcshoppe.in</a></span></p>
+              <p className='m-0'>Please Call us: +91 9742097199</p>
+              <p>Email: <span><a href='mailto:ansar543@gmail.com' style={{ color: '#333e48', textDecoration: 'none' }}>info@buyandselllaptop.com</a></span></p>
             </div>
             <div className='col-12'>
               <h3>Opening Hours</h3> 
@@ -41,8 +41,8 @@ export default function Contact() {
             </div>
             <div className='col-12'>
               <h3>Careers</h3> 
-              <p className='m-0'>If you’re interested in employment opportunities at PANNA COMPUTERS ,</p>
-              <p>please email us: <span><a href='mailto:info@pcshoppe.in' style={{ color: '#333e48', textDecoration: 'none' }}>info@pcshoppe.in</a></span></p>
+              <p className='m-0'>If you’re interested in employment opportunities at Buy and Sell Laptops ,</p>
+              <p>please email us: <span><a href='mailto:ansar543@gmail.com' style={{ color: '#333e48', textDecoration: 'none' }}>info@buyandselllaptop.com</a></span></p>
             </div>
           </div>
         </div>

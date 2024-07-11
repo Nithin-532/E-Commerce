@@ -20,8 +20,8 @@ export default function Footer() {
           <div>
             <h5>Got Questions? Call us 24/7</h5>
             <p>
-              <i className="bi bi-telephone-fill"></i> +91 70307 03101 <br />
-              <i className="bi bi-telephone-fill"></i> +91 96049 00311
+              <i className="bi bi-telephone-fill"></i> +91 9742097199 <br />
+              {/* <i className="bi bi-telephone-fill"></i> +91 96049 00311 */}
             </p>
           </div>
         </div>

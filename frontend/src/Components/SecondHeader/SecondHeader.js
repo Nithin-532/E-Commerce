@@ -3,11 +3,11 @@ import "./SecondHeader.css";
 
 const SecondHeader = ({ isOpen, navigate }) => {
   return (
-    <div className={`second-header ${isOpen ? 'open' : 'closed'} d-md-flex ps-5 align-items-center`}>
+    <div className={`second-header ${isOpen ? 'open' : 'closed'} d-md-flex ps-md-5 align-items-center`}>
       <StyledComponent>
         <a onClick={() => navigate("/")}>Home</a>
       </StyledComponent>
-      <div className="btn-group">
+      {/* <div className="btn-group">
         <button type="button" className="btn styled-component dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
           Laptops
         </button>
@@ -40,7 +40,7 @@ const SecondHeader = ({ isOpen, navigate }) => {
           <li><a className="dropdown-item" href="#">Solid State Drive (SSD)</a></li>
           <li><a className="dropdown-item" href="#">Graphic Card</a></li>
         </ul>
-      </div>
+      </div> */}
       <StyledComponent>
         <a onClick={() => navigate("/aboutUs")}>About Us</a>
       </StyledComponent>

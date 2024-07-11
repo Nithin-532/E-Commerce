@@ -24,10 +24,10 @@ const ContactSection = () => {
                 Thergaon, Pune - 411033
               </p>
               <div>
-                <a href="https://www.facebook.com" className="me-3">
+                <a href="https://www.facebook.com/theoncesourceit?mibextid=LQQJ4d" className="me-3">
                   <i className="bi bi-facebook"></i>
                 </a>
-                <a href="https://www.instagram.com">
+                <a href="https://instagram.com/theonesource_it_laptops?igshid=YmMyMTA2M2Y=">
                   <i className="bi bi-instagram"></i>
                 </a>
               </div>

@@ -13,7 +13,7 @@ export default function Home() {
       <BrandSection />
       <FeaturedProducts />
       <Deal />
-      <SpecialOffer />
+      {/* <SpecialOffer /> */}
     </>
   )
 }

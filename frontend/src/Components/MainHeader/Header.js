@@ -6,7 +6,7 @@ const Header = ({ toggleSideBar }) => {
   return (
     <>
       {/* Larger screens */}
-      <div className="d-none d-lg-flex justify-content-between align-items-center header">
+      <div className="d-none d-lg-flex justify-content-between align-items-center header" style={{ maxWidth: "100vw"}}>
         <div className="navbar-brand d-flex align-items-center logo ps-2 pe-2">
           <img
             src="path-to-logo.png"
@@ -38,13 +38,13 @@ const Header = ({ toggleSideBar }) => {
       </div>
 
       {/* Smaller screens */}
-      <div className='d-flex flex-column d-lg-none p-3 gap-2'>
+      <div className='d-flex flex-column d-lg-none p-2 gap-2' style={{ maxWidth: "100vw", width: '100vw' }}>
         <div className="d-flex justify-content-between align-items-center">
           <div className='d-flex align-items-center'>
-            <button className="btn btn-secondary" onClick={toggleSideBar}>
+            {/* <button className="btn btn-secondary" onClick={toggleSideBar}>
               ☰
-            </button>
-            <div className="navbar-brand d-flex align-items-center logo ps-2 pe-2">
+            </button> */}
+            <div className="navbar-brand d-flex align-items-center logo">
               <img
                 src="path-to-logo.png"
                 height="30"
@@ -54,10 +54,10 @@ const Header = ({ toggleSideBar }) => {
             </div>
           </div>
           <div className="d-flex align-items-center">
-            <a href="#" className="nav-link d-flex align-items-center">
+            {/* <a href="#" className="nav-link d-flex align-items-center">
               <i className="fas fa-user"></i>
-            </a>
-            <a href="#" className="nav-link d-flex align-items-center ps-2 color-black">
+            </a> */}
+            <a href="#" className="nav-link d-flex align-items-center color-black">
               <img
                 src={ICONS.shopping_cart}
                 height="30"
@@ -69,14 +69,14 @@ const Header = ({ toggleSideBar }) => {
             </a>
           </div>
         </div>
-        <div className='flex-grow-1 mx-4 d-flex justify-content-center'>
+        {/* <div className='flex-grow-1 mx-4 d-flex justify-content-center'>
           <div className='input-group'>
             <input type="text" className="form-control" placeholder="Search Products ..." />
             <div className="input-group-append">
               <i className="fas fa-search"></i>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
