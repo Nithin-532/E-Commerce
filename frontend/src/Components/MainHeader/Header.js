@@ -12,7 +12,7 @@ const Header = ({ toggleSideBar }) => {
             src="path-to-logo.png"
             height="30"
             className="d-inline-block align-top"
-            alt="Panna Computer's"
+            alt="Buy&SellLaptops"
           />
         </div>
         <div className='flex-grow-1 mx-4 d-flex justify-content-center'>
@@ -49,7 +49,7 @@ const Header = ({ toggleSideBar }) => {
                 src="path-to-logo.png"
                 height="30"
                 className="d-inline-block align-top"
-                alt="Panna Computer's"
+                alt="Buy&SellLaptops"
               />
             </div>
           </div>

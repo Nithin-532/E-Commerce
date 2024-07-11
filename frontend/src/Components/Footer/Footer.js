@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="col-lg-4 text-start d-lg-none text-center p-4">
-          <img src="path-to-your-logo.png" alt="Panna Computers Logo" className="img-fluid mb-3" />
+          <img src="path-to-your-logo.png" alt="Buy&SellLaptops" className="img-fluid mb-3" />
           <h2>BuyAndSellLaptops</h2>
           <p className="text-muted">BEGINNING OF NEW DIGITAL WORLD</p>
           <div>

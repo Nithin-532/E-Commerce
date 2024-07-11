@@ -7,7 +7,7 @@ const ContactSection = () => {
       <div className="container pt-5 pb-5" style={{ display: {xs: 'none', lg: 'flex' }}}>
         <div className="row justify-content-between d-none d-lg-flex g-4">
           <div className="col-md-4 text-start ">
-            <img src="path-to-your-logo.png" alt="Panna Computers Logo" className="img-fluid mb-3" />
+            <img src="path-to-your-logo.png" alt="Buy&SellLaptops" className="img-fluid mb-3" />
             <h2>Buy&SellLaptops</h2>
             <p className="text-muted">BEGINNING OF NEW DIGITAL WORLD</p>
             <div>
