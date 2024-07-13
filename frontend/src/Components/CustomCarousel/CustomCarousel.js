@@ -13,15 +13,15 @@ const CustomCarousel = () => {
       <Carousel showThumbs={false} infiniteLoop autoPlay interval={3000} showStatus={false}>
         <Box className="carousel-slide" sx={{ position: 'relative' }}>
           <img src={thumbnail1} alt="Slide 1" />
-          <Typography variant="h4" className="carousel-caption">Best Deal on Laptops Refurbished</Typography>
+          {/* <Typography variant="h4" className="carousel-caption">Best Deal on Laptops Refurbished</Typography> */}
         </Box>
         <Box className="carousel-slide" sx={{ position: 'relative' }}>
           <img src={thumbnail2} alt="Slide 2" />
-          <Typography variant="h4" className="carousel-caption">Save Big on Tech!</Typography>
+          {/* <Typography variant="h4" className="carousel-caption">Save Big on Tech!</Typography> */}
         </Box>
         <Box className="carousel-slide" sx={{ position: 'relative' }}>
           <img src={thumbnail3} alt="Slide 3" />
-          <Typography variant="h4" className="carousel-caption">Quality Refurbished Laptops</Typography>
+          {/* <Typography variant="h4" className="carousel-caption">Quality Refurbished Laptops</Typography> */}
         </Box>
       </Carousel>
     </Box>

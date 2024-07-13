@@ -1,15 +1,15 @@
+import { IMAGES, whatsapp_icon } from "../../assets";
 import DealCard from "../Deal/DealCard";
+import WhatsAppButton from "../WhatsAppButton";
 
 function FeaturedProducts() {
   const items = [
     {
       image: [
-        "blob:https://web.whatsapp.com/53339ade-44e2-4a7c-b23a-1686cabbca31",
-        "blob:https://web.whatsapp.com/95bad25e-ff54-4495-a567-b24777c07a60",
-        "blob:https://web.whatsapp.com/9821f2d9-601e-4d2d-9008-967799da5f4e",
-        "blob:https://web.whatsapp.com/7b8710e3-29de-410c-bd84-38a1bc8c3ae7",
-        "blob:https://web.whatsapp.com/c8898622-e942-4ce4-9031-3aab10b64722",
-        "blob:https://web.whatsapp.com/15ffd979-1dba-49e2-b8f6-44c3db0d93c6",
+        IMAGES.lenovo.t490.image1,
+        IMAGES.lenovo.t490.image2,
+        IMAGES.lenovo.t490.image3,
+        IMAGES.lenovo.t490.image4
       ],
       name: "Lenovo T490 ThinkPad intel core i5 8th gen 8gb RAM 256gb SSD 14'' FHD",
       price: "₹26,500.00",
@@ -18,9 +18,11 @@ function FeaturedProducts() {
     },
     {
       image: [
-        "blob:https://web.whatsapp.com/6ed79f91-3555-4294-bc6f-6c39480e4c6a",
-        "blob:https://web.whatsapp.com/df1a29da-5e4e-4982-98d8-335d1ca94c33",
-        "blob:https://web.whatsapp.com/880a5c09-18ca-4816-8eac-d02ad60c8386",
+        IMAGES.lenovo.t480.image1,
+        IMAGES.lenovo.t480.image2,
+        IMAGES.lenovo.t480.image3,
+        IMAGES.lenovo.t480.image4,
+        IMAGES.lenovo.t480.image5,
       ],
       name: "LENOVO T480 CORE i5 8TH GEN 8GB RAM - 256GB SSD 14'' FHD DISPLAY WITH WARRANTY",
       price: "₹25,500.00",
@@ -29,9 +31,10 @@ function FeaturedProducts() {
     },
     {
       image: [
-        "blob:https://web.whatsapp.com/6ed79f91-3555-4294-bc6f-6c39480e4c6a",
-        "blob:https://web.whatsapp.com/df1a29da-5e4e-4982-98d8-335d1ca94c33",
-        "blob:https://web.whatsapp.com/880a5c09-18ca-4816-8eac-d02ad60c8386",
+        IMAGES.dell[5400].image1,
+        IMAGES.dell[5400].image2,
+        IMAGES.dell[5400].image3,
+        IMAGES.dell[5400].image4,
       ],
       name: "DELL LATITUDE 5400 CORE i5 8TH GEN 8GB RAM & 256GB SSD 14'' DISPLAY",
       price: "₹25,500.00",
@@ -40,9 +43,7 @@ function FeaturedProducts() {
     },
     {
       image: [
-        "blob:https://web.whatsapp.com/6ed79f91-3555-4294-bc6f-6c39480e4c6a",
-        "blob:https://web.whatsapp.com/df1a29da-5e4e-4982-98d8-335d1ca94c33",
-        "blob:https://web.whatsapp.com/880a5c09-18ca-4816-8eac-d02ad60c8386",
+        IMAGES.dell.optiplex.image1,
       ],
       name: "DELL OPTIPLEX DESKTOP i5 6TH GEN 8GB RAM 256GB SSD 19'' MONITOR WITH KEYBOARD & MOUSE",
       price: "₹17,500.00",
@@ -60,19 +61,31 @@ function FeaturedProducts() {
         <div className="featured-products-container-colored">
           <div className="orange featured-card">
             <div className="featured-card-image">
-              <img src="/assets/images/products/product_2.png" />
+              <img src={IMAGES.hp["840_G5"].image5} style={{ width: '100%', aspectRatio: "1/1", objectFit: 'contain'}} />
             </div>
             <div className="featured-card-details">
-              <a className="featured-card-details-name" href="https://wa.me/p/6719679248088023/919742097199" target="_blank" style={{ textDecoration: 'none', color: 'black' }}>HP ELITEBOOK 840 G5-G6 CORE i5 8TH GEN 8GB RAM - 256GB SSD 14" FHD SCREEN</a>
+              <p className="featured-card-details-name" style={{ textDecoration: 'none', color: 'black', overflow: "hidden", display: "-webkit-box", "-webkit-line-clamp": 2, "line-clamp": 2, "-webkit-box-orient": "vertical" }}>HP ELITEBOOK 840 G5-G6 CORE i5 8TH GEN 8GB RAM - 256GB SSD 14" FHD SCREEN</p>
+              <button style={{ display: 'flex', border: "2px solid white", alignItems: 'center', backgroundColor: 'transparent', borderRadius: '10px', justifyContent: 'center', padding: '10px 8px'}}>
+                <a href="https://wa.me/p/6719679248088023/919742097199" target="_blank" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textDecoration: 'none'}}>
+                  <p style={{ margin: '0'}}>{whatsapp_icon}</p> 
+                  <p style={{ color: 'white',paddingLeft: '6px', margin: '0', fontWeight: 'bold' }}>Buy on WhatsApp</p>
+                </a>
+              </button>
               <p className="font-wt-6">₹26,500.00</p>
             </div>
           </div>
           <div className="violet featured-card">
             <div className="featured-card-image">
-              <img src="/assets/images/products/product_3.png" />
+              <img src={IMAGES.dell.e7490.image6} style={{ width: '100%', aspectRatio: "1/1", objectFit: 'contain'}}/>
             </div>
             <div className="featured-card-details">
-              <a className="featured-card-details-name" href="https://wa.me/p/24114788348169319/919742097199" target="_blank" style={{ textDecoration: 'none', color: 'black' }}>DELL 8TH GEN CORE i7 8GB RAM & 256GB SSD 14" FHD SCREEN WITH WARRANTY</a>
+              <p className="featured-card-details-name" style={{ textDecoration: 'none', color: 'black', overflow: "hidden", display: "-webkit-box", "-webkit-line-clamp": 2, "line-clamp": 2, "-webkit-box-orient": "vertical" }}>DELL 8TH GEN CORE i7 8GB RAM & 256GB SSD 14" FHD SCREEN WITH WARRANTY</p>
+              <button style={{ display: 'flex', border: "2px solid white", alignItems: 'center', backgroundColor: 'transparent', borderRadius: '10px', justifyContent: 'center', padding: '10px 8px'}}>
+                <a href="https://wa.me/p/24114788348169319/919742097199" target="_blank" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', textDecoration: 'none'}}>
+                  <p style={{ margin: '0'}}>{whatsapp_icon}</p> 
+                  <p style={{ color: 'white',paddingLeft: '6px', margin: '0', fontWeight: 'bold' }}>Buy on WhatsApp</p>
+                </a>
+              </button>
               <p className="font-wt-6">₹27,500.00</p>
             </div>
           </div>

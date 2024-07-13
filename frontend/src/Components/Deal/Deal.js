@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import DealCard from './DealCard';
+import { IMAGES } from '../../assets';
 
 function Deal() {
   const sliderRef = useRef(null);
@@ -22,12 +23,10 @@ function Deal() {
   const items = [
     {
       image: [
-        "blob:https://web.whatsapp.com/53339ade-44e2-4a7c-b23a-1686cabbca31",
-        "blob:https://web.whatsapp.com/95bad25e-ff54-4495-a567-b24777c07a60",
-        "blob:https://web.whatsapp.com/9821f2d9-601e-4d2d-9008-967799da5f4e",
-        "blob:https://web.whatsapp.com/7b8710e3-29de-410c-bd84-38a1bc8c3ae7",
-        "blob:https://web.whatsapp.com/c8898622-e942-4ce4-9031-3aab10b64722",
-        "blob:https://web.whatsapp.com/15ffd979-1dba-49e2-b8f6-44c3db0d93c6",
+        IMAGES.lenovo.t490.image1,
+        IMAGES.lenovo.t490.image2,
+        IMAGES.lenovo.t490.image3,
+        IMAGES.lenovo.t490.image4
       ],
       name: "Lenovo T490 ThinkPad intel core i5 8th gen 8gb RAM 256gb SSD 14'' FHD",
       price: "₹26,500.00",
@@ -37,9 +36,11 @@ function Deal() {
     },
     {
       image: [
-        "blob:https://web.whatsapp.com/6ed79f91-3555-4294-bc6f-6c39480e4c6a",
-        "blob:https://web.whatsapp.com/df1a29da-5e4e-4982-98d8-335d1ca94c33",
-        "blob:https://web.whatsapp.com/880a5c09-18ca-4816-8eac-d02ad60c8386",
+        IMAGES.lenovo.t480.image1,
+        IMAGES.lenovo.t480.image2,
+        IMAGES.lenovo.t480.image3,
+        IMAGES.lenovo.t480.image4,
+        IMAGES.lenovo.t480.image5,
       ],
       name: "LENOVO T480 CORE i5 8TH GEN 8GB RAM - 256GB SSD 14'' FHD DISPLAY WITH WARRANTY",
       price: "₹25,500.00",
@@ -49,9 +50,10 @@ function Deal() {
     },
     {
       image: [
-        "blob:https://web.whatsapp.com/6ed79f91-3555-4294-bc6f-6c39480e4c6a",
-        "blob:https://web.whatsapp.com/df1a29da-5e4e-4982-98d8-335d1ca94c33",
-        "blob:https://web.whatsapp.com/880a5c09-18ca-4816-8eac-d02ad60c8386",
+        IMAGES.dell[5400].image1,
+        IMAGES.dell[5400].image2,
+        IMAGES.dell[5400].image3,
+        IMAGES.dell[5400].image4,
       ],
       name: "DELL LATITUDE 5400 CORE i5 8TH GEN 8GB RAM & 256GB SSD 14'' DISPLAY",
       price: "₹25,500.00",
@@ -61,9 +63,7 @@ function Deal() {
     },
     {
       image: [
-        "blob:https://web.whatsapp.com/6ed79f91-3555-4294-bc6f-6c39480e4c6a",
-        "blob:https://web.whatsapp.com/df1a29da-5e4e-4982-98d8-335d1ca94c33",
-        "blob:https://web.whatsapp.com/880a5c09-18ca-4816-8eac-d02ad60c8386",
+        IMAGES.dell.optiplex.image1,
       ],
       name: "DELL OPTIPLEX DESKTOP i5 6TH GEN 8GB RAM 256GB SSD 19'' MONITOR WITH KEYBOARD & MOUSE",
       price: "₹17,500.00",
@@ -73,9 +73,10 @@ function Deal() {
     },
     {
       image: [
-        "blob:https://web.whatsapp.com/6ed79f91-3555-4294-bc6f-6c39480e4c6a",
-        "blob:https://web.whatsapp.com/df1a29da-5e4e-4982-98d8-335d1ca94c33",
-        "blob:https://web.whatsapp.com/880a5c09-18ca-4816-8eac-d02ad60c8386",
+        IMAGES.hp['840_G5'].image1,
+        IMAGES.hp['840_G5'].image2,
+        IMAGES.hp['840_G5'].image3,
+        IMAGES.hp['840_G5'].image4,
       ],
       name: "HP ELITEBOOK 840 G5-G6 CORE i5 8TH GEN 8GB RAM - 256GB SSD 14'' FHD SCREEN WITH WARRANTY",
       price: "₹26,500.00",
@@ -85,9 +86,10 @@ function Deal() {
     },
     {
       image: [
-        "blob:https://web.whatsapp.com/6ed79f91-3555-4294-bc6f-6c39480e4c6a",
-        "blob:https://web.whatsapp.com/df1a29da-5e4e-4982-98d8-335d1ca94c33",
-        "blob:https://web.whatsapp.com/880a5c09-18ca-4816-8eac-d02ad60c8386",
+        IMAGES.dell.e7490.image1,
+        IMAGES.dell.e7490.image2,
+        IMAGES.dell.e7490.image3,
+        IMAGES.dell.e7490.image4,
       ],
       name: "DELL 8TH GEN CORE i7 8GB RAM & 256GB SSD 14'' FHD SCREEN WITH WARRANTY",
       price: "₹27,500.00",
@@ -97,9 +99,10 @@ function Deal() {
     },
     {
       image: [
-        "blob:https://web.whatsapp.com/6ed79f91-3555-4294-bc6f-6c39480e4c6a",
-        "blob:https://web.whatsapp.com/df1a29da-5e4e-4982-98d8-335d1ca94c33",
-        "blob:https://web.whatsapp.com/880a5c09-18ca-4816-8eac-d02ad60c8386",
+        IMAGES.dell[5490].image1,
+        IMAGES.dell[5490].image2,
+        IMAGES.dell[5490].image3,
+        IMAGES.dell[5490].image4,
       ],
       name: "SLIM DELL LATITUDE LAPTOP CORE i5 8GB RAM 256GB SSD",
       price: "₹22,000.00",
@@ -109,9 +112,9 @@ function Deal() {
     },
     {
       image: [
-        "blob:https://web.whatsapp.com/6ed79f91-3555-4294-bc6f-6c39480e4c6a",
-        "blob:https://web.whatsapp.com/df1a29da-5e4e-4982-98d8-335d1ca94c33",
-        "blob:https://web.whatsapp.com/880a5c09-18ca-4816-8eac-d02ad60c8386",
+        IMAGES.dell.e7490.image5,
+        IMAGES.dell[5490].image4,
+        IMAGES.dell[5490].image1,
       ],
       name: "DELL LATITUDE LAPTOP CORE i5 DDR4 8GB RAM 256GB M.2 14 screen",
       price: "₹19,999.00",
@@ -121,9 +124,11 @@ function Deal() {
     },
     {
       image: [
-        "blob:https://web.whatsapp.com/6ed79f91-3555-4294-bc6f-6c39480e4c6a",
-        "blob:https://web.whatsapp.com/df1a29da-5e4e-4982-98d8-335d1ca94c33",
-        "blob:https://web.whatsapp.com/880a5c09-18ca-4816-8eac-d02ad60c8386",
+        IMAGES.lenovo.slim.image1,
+        IMAGES.lenovo.slim.image2,
+        IMAGES.lenovo.slim.image3,
+        IMAGES.lenovo.slim.image4,
+        IMAGES.lenovo.slim.image5,
       ],
       name: "SLIM LENOVO LAPTOP CORE i5 8GB RAM 512GB SSD 14'' TOUCHSCREEN WITH EWARRANTY",
       price: "₹22,500.00",
@@ -133,9 +138,7 @@ function Deal() {
     },
     {
       image: [
-        "blob:https://web.whatsapp.com/6ed79f91-3555-4294-bc6f-6c39480e4c6a",
-        "blob:https://web.whatsapp.com/df1a29da-5e4e-4982-98d8-335d1ca94c33",
-        "blob:https://web.whatsapp.com/880a5c09-18ca-4816-8eac-d02ad60c8386",
+        IMAGES.dell.optiplex.image1,
       ],
       name: "DELL OPTIPLEX DESKTOP i5 6TH GEN 8GB RAM 256GB SSD 19'' MONITOR WITH KEYBOARD & MOUSE",
       price: "₹17,500.00",
@@ -145,9 +148,10 @@ function Deal() {
     },
     {
       image: [
-        "blob:https://web.whatsapp.com/6ed79f91-3555-4294-bc6f-6c39480e4c6a",
-        "blob:https://web.whatsapp.com/df1a29da-5e4e-4982-98d8-335d1ca94c33",
-        "blob:https://web.whatsapp.com/880a5c09-18ca-4816-8eac-d02ad60c8386",
+        IMAGES.dell.e7490.image1,
+        IMAGES.dell.e7490.image2,
+        IMAGES.dell.e7490.image3,
+        IMAGES.dell.e7490.image4,
       ],
       name: "DELL 8TH GEN CORE i7 8GB RAM & 256GB SSD 14'' FHD SCREEN WITH WARRANTY",
       price: "₹27,500.00",
