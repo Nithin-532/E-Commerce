@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import { ICONS } from '../../assets';
 
-const Header = ({ toggleSideBar }) => {
+const Header = ({ toggleSideBar, setText }) => {
   return (
     <>
       {/* Larger screens */}
@@ -17,7 +17,7 @@ const Header = ({ toggleSideBar }) => {
         </div>
         <div className='flex-grow-1 mx-4 d-flex justify-content-center'>
           <div className='input-group'>
-            <input type="text" className="form-control" placeholder="All Categories" />
+            <input type="text" className="form-control" placeholder="All Categories" onChange={(e) => setText(e.target.value)} />
             <div className="input-group-append">
               <i className="fas fa-search"></i>
             </div>

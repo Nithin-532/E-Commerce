@@ -30,11 +30,27 @@ import dell_4_image_1 from "./images/Dell/5490/image1.webp";
 import dell_4_image_2 from "./images/Dell/5490/image2.webp";
 import dell_4_image_3 from "./images/Dell/5490/image3.webp";
 import dell_4_image_4 from "./images/Dell/5490/image4.webp";
+import dell_5_image_1 from "./images/Dell/3400/image1.webp";
+import dell_6_image_1 from "./images/Dell/3490/image1.webp";
+import dell_7_image_1 from "./images/Dell/5400/i5/image1.webp";
+import dell_8_image_1 from "./images/Dell/5400/i7/image1.webp";
+import dell_9_image_1 from "./images/Dell/5480/image1.webp";
+import dell_10_image_1 from "./images/Dell/7300/image1.webp";
+import dell_11_image_1 from "./images/Dell/7400/i5/image1.webp";
+import dell_12_image_1 from "./images/Dell/7400/i7/image1.webp";
 import hp_1_image_1 from "./images/Hp/840(G5)/image1.jpeg";
 import hp_1_image_2 from "./images/Hp/840(G5)/image2.jpeg";
 import hp_1_image_3 from "./images/Hp/840(G5)/image3.jpeg";
 import hp_1_image_4 from "./images/Hp/840(G5)/image4.jpeg";
 import hp_1_image_5 from "./images/Hp/840(G5)/image5.png";
+import hp_2_image_1 from "./images/Hp/830(G5)/i5/image1.webp";
+import hp_3_image_1 from "./images/Hp/830(G5)/i7/image1.webp";
+import hp_4_image_1 from "./images/Hp/840(G3)/image1.webp";
+import hp_5_image_1 from "./images/Hp/840(G5)/i7/image1.webp";
+import hp_6_image_1 from "./images/Hp/840(G6)/image1.webp";
+import hp_7_image_1 from "./images/Hp/pavilion/i3/image1.webp";
+import hp_8_image_1 from "./images/Hp/pavilion/i5/shopping.webp";
+import hp_9_image_1 from "./images/Hp/probook/image1.webp";
 
 export const IMAGES = {
   payment_icon: payment_icon,
@@ -84,6 +100,30 @@ export const IMAGES = {
       image2: dell_4_image_2,
       image3: dell_4_image_3,
       image4: dell_4_image_4,
+    },
+    3400: {
+      image1: dell_5_image_1,
+    },
+    3490: {
+      image1: dell_6_image_1,
+    },
+    "5400_i5": {
+      image1: dell_7_image_1,
+    },
+    "5400_i7": {
+      image1: dell_8_image_1,
+    },
+    5480: {
+      image1: dell_9_image_1,
+    },
+    7300: {
+      image1: dell_10_image_1,
+    },
+    "7400_i5": {
+      image1: dell_11_image_1,
+    },
+    "7400_i7": {
+      image1: dell_12_image_1
     }
   },
   hp: {
@@ -93,6 +133,27 @@ export const IMAGES = {
       image3: hp_1_image_3,
       image4: hp_1_image_4,
       image5: hp_1_image_5,
+    },
+    "830_G5_i5": {
+      image1: hp_2_image_1,
+    },
+    "830_G5_i7": {
+      image1: hp_3_image_1,
+    },
+    "840_G3": {
+      image1: hp_4_image_1,
+    },
+    "840_G6": {
+      image1: hp_6_image_1,
+    },
+    "pavilion_i3": {
+      image1: hp_7_image_1,
+    },
+    "pavilion_i5": {
+      image1: hp_8_image_1,
+    },
+    "probook": {
+      image1: hp_9_image_1
     }
   }
 }
