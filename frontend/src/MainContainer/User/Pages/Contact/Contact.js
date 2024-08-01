@@ -16,7 +16,7 @@ export default function Contact() {
       </div>
       <div className="row container pt-5 d-flex flex-row">
         <div className="col-md-6 d-flex flex-column">
-          <iframe 
+          {/* <iframe 
             title="Google Map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.511953467657!2d144.95373531531682!3d-37.81627997975139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577f8c2af56c2d1!2sPanna%20Computers!5e0!3m2!1sen!2sin!4v1622020495778!5m2!1sen!2sin"
             width="100%"
@@ -24,7 +24,7 @@ export default function Contact() {
             style={{ border: 0 }}
             allowFullScreen=""
             loading="lazy"
-          ></iframe>
+          ></iframe> */}
           <div className="row mt-5">
             <div className="col-12">
               <h2>Our Address</h2>

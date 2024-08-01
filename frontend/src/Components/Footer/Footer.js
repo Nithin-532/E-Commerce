@@ -1,4 +1,4 @@
-import { IMAGES } from "../../assets"
+import { ICONS, IMAGES } from "../../assets"
 import "./Footer.css"
 
 export default function Footer() {
@@ -14,14 +14,14 @@ export default function Footer() {
         </div>
       </div>
       <div className="col-lg-4 text-start d-lg-none text-center p-4">
-          <img src="path-to-your-logo.png" alt="Buy&SellLaptops" className="img-fluid mb-3" />
+          <img src={ICONS.logo} alt="Buy&SellLaptops" className="img-fluid mb-3" style={{ height: '50px' }}/>
           <h2>BuyAndSellLaptops</h2>
           <p className="text-muted">BEGINNING OF NEW DIGITAL WORLD</p>
           <div>
             <h5>Got Questions? Call us 24/7</h5>
             <p>
               <i className="bi bi-telephone-fill"></i> +91 9742097199 <br />
-              {/* <i className="bi bi-telephone-fill"></i> +91 96049 00311 */}
+              <i className="bi bi-telephone-fill"></i> +91 9986092718
             </p>
           </div>
         </div>

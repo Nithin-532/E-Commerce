@@ -97,7 +97,7 @@ const Header = ({ toggleSideBar, setText }) => {
           <div className='input-group'>
             <input type="text" className="form-control" placeholder="Search Products ..." onChange={(e) => setText(e.target.value)}
               onKeyDown={(e) => navigateAllProducts(e)} />
-            <div className="input-group-append">
+            <div className="input-group-append" onClick={() => navigate("/main")} style={{ cursor: 'pointer'}}>
               <i className="fas fa-search"></i>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/MainHeader/Header";
 import ContactSection from "../../Components/PrevFooter/PrevFooter";
@@ -14,6 +14,7 @@ export const UserContext = createContext();
 export default function User({ children }) {
   const [isOpen, setIsOpen] = useState(false);
   const [text, setText] = useState('');
+  const [selectedProduct, setSelectedProduct] = useState(null);
   const navigate = useNavigate();
 
   const toggleSideBar = () => {
@@ -22,7 +23,8 @@ export default function User({ children }) {
 
   return (
     <UserContext.Provider value={{
-      text
+      text,
+      selectedProduct, setSelectedProduct
     }}>
       <div>
         <Header toggleSideBar={toggleSideBar} setText={setText}/>

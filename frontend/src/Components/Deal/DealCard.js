@@ -1,8 +1,18 @@
+import { useContext } from "react";
 import WhatsAppButton from "../WhatsAppButton";
+import { UserContext } from "../../MainContainer/User/User";
+import { useNavigate } from "react-router-dom";
 
 function DealCard(props) {
+  const { setSelectedProduct } = useContext(UserContext);
+  const navigate = useNavigate();
+
   return (
-    <div className='slick-card'>
+    <div className='slick-card' onClick={() => {
+      console.log(props.item);
+      setSelectedProduct(props.item);
+      navigate("/product");
+    }}>
       <div className='inner-card'>
         <div className="image-section">
           <img src={props.item.image[0]} alt="product-img" style={{ width: '100%', aspectRatio: "1/1", objectFit: 'contain', borderRadius: '16px'}}/>

@@ -4,6 +4,7 @@ import Contact from '../MainContainer/User/Pages/Contact/Contact';
 import AboutUs from '../MainContainer/User/Pages/AboutUs/AboutUs';
 import User from '../MainContainer/User/User';
 import MainPage from '../MainContainer/User/Pages/MainPage/MainPage';
+import Product from '../Components/Product/Product';
 
 export const router = createBrowserRouter([
   {
@@ -28,6 +29,12 @@ export const router = createBrowserRouter([
     path: "/main",
     element: (<User>
       <MainPage />
+    </User>)
+  },
+  {
+    path: "/product",
+    element: (<User>
+      <Product />
     </User>)
   }
 ]);
