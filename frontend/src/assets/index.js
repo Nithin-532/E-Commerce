@@ -1,7 +1,7 @@
 import payment_icon from "./images/payment-icon-1.png";
 import banner1 from "./images/banner1-1.jpeg";
-import logo from "./icons/buyselllaptops.svg";
-import logoTransparent from "./icons/buyselllaptops-transparent.svg";
+import logo from "./icons/logo.jpeg";
+import logoTransparent from "./icons/logo.jpeg";
 import shopping_cart from "./icons/shopping-bag.png";
 import lenovo_1_image_1 from "./images/Lenovo/Lenovo T490/image1.jpg";
 import lenovo_1_image_2 from "./images/Lenovo/Lenovo T490/image2.jpg";

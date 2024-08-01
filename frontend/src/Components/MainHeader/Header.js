@@ -22,7 +22,7 @@ const Header = ({ toggleSideBar, setText }) => {
         <div className="navbar-brand d-flex align-items-center logo">
           <img
             src={ICONS.logo}
-            style={{ width: "260px", height: "90px", objectFit: "cover" }}
+            style={{ height: "90px", objectFit: "cover" }}
             className="d-inline-block align-top"
             alt="Buy&SellLaptops"
           />
@@ -68,7 +68,7 @@ const Header = ({ toggleSideBar, setText }) => {
             <div className="navbar-brand d-flex align-items-center">
               <img
                 src={ICONS.logo}
-                style={{ width: "260px", height: "90px", objectFit: "cover" }}
+                style={{ height: "90px", objectFit: "cover" }}
                 className="d-inline-block align-top"
                 alt="Buy&SellLaptops"
               />

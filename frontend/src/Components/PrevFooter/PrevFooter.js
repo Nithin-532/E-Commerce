@@ -14,8 +14,8 @@ const ContactSection = () => {
             <div>
               <h5>Got Questions? Call us 24/7</h5>
               <p>
-                <i className="bi bi-telephone-fill"></i> +91 70307 03101 <br />
-                <i className="bi bi-telephone-fill"></i> +91 96049 00311
+                <i className="bi bi-telephone-fill"></i> +91 97420 97199 <br />
+                <i className="bi bi-telephone-fill"></i> +91 99860 92718
               </p>
             </div>
           <div className="col text-start">
@@ -24,10 +24,10 @@ const ContactSection = () => {
               #348, 2nd Floor, Between 10th & 11th Cross, Sampige Rd, Malleshwaram, Bengaluru, Karnataka 560003
               </p>
               <div>
-                <a href="https://www.facebook.com/theoncesourceit?mibextid=LQQJ4d" className="me-3">
+                <a href="https://www.facebook.com/theoncesourceit?mibextid=LQQJ4d" target='_blank' className="me-3">
                   <i className="bi bi-facebook"></i>
                 </a>
-                <a href="https://instagram.com/theonesource_it_laptops?igshid=YmMyMTA2M2Y=">
+                <a href="https://instagram.com/theonesource_it_laptops?igshid=YmMyMTA2M2Y=" target='_blank'>
                   <i className="bi bi-instagram"></i>
                 </a>
               </div>
@@ -42,7 +42,7 @@ const ContactSection = () => {
               <li>About</li>
               <li>Home</li>
               <li>Contact</li>
-              <li>FAQ</li>
+              {/* <li>FAQ</li> */}
             </ul>
           </div>
           <div className='col-md-4'>
@@ -54,15 +54,15 @@ const ContactSection = () => {
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
-              title="Panna Computers Location"
+              title="Buy&SellLaptops Location"
             ></iframe>
           </div>
         </div>
         <div className='d-flex d-lg-none align-items-center align-self-center justify-content-center justify-self-center'>
-          <a href="https://www.facebook.com" className="me-3">
+          <a href="https://www.facebook.com/share/pPqwXGjTXgvRwwPL/?mibextid=LQQJ4d" className="me-3">
             <i className="bi bi-facebook"></i>
           </a>
-          <a href="https://www.instagram.com">
+          <a href="https://www.instagram.com/theonesource_it_laptops?igsh=MTd4ZDlkYmlzYTN1NQ== ">
             <i className="bi bi-instagram"></i>
           </a>
         </div>
