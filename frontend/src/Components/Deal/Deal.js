@@ -4,6 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import DealCard from './DealCard';
 import { IMAGES } from '../../assets';
+import { data } from '../../store/store';
 
 function Deal() {
   const sliderRef = useRef(null);
@@ -201,7 +202,7 @@ function Deal() {
       </div>
       <div className="carousel-container">
         <Slider {...settings} ref={sliderRef}>
-          {items.map((item, i) => <DealCard key = {i} item = {item} />)}
+          {data.map((item, i) => <DealCard key = {i} item = {item} />)}
         </Slider>
       </div>
     </div>

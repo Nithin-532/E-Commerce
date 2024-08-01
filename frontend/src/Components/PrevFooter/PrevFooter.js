@@ -1,5 +1,6 @@
 // src/ContactSection.js
 import React from 'react';
+import { ICONS } from '../../assets';
 
 const ContactSection = () => {
   return (
@@ -7,7 +8,7 @@ const ContactSection = () => {
       <div className="container pt-5 pb-5" style={{ display: {xs: 'none', lg: 'flex' }}}>
         <div className="row justify-content-between d-none d-lg-flex g-4">
           <div className="col-md-4 text-start ">
-            <img src="path-to-your-logo.png" alt="Buy&SellLaptops" className="img-fluid mb-3" />
+            <img src={ICONS.logoTransparent} alt="Buy&SellLaptops" className="img-fluid mb-3" style={{ width: '200px'}}/>
             <h2>Buy&SellLaptops</h2>
             <p className="text-muted">BEGINNING OF NEW DIGITAL WORLD</p>
             <div>
@@ -20,8 +21,7 @@ const ContactSection = () => {
           <div className="col text-start">
               <h5>Contact Info</h5>
               <p>
-                16 No Bus Stop, Pawar Nagar Colony No 1, Near Manapuram Gold Building, <br />
-                Thergaon, Pune - 411033
+              #348, 2nd Floor, Between 10th & 11th Cross, Sampige Rd, Malleshwaram, Bengaluru, Karnataka 560003
               </p>
               <div>
                 <a href="https://www.facebook.com/theoncesourceit?mibextid=LQQJ4d" className="me-3">
@@ -48,7 +48,7 @@ const ContactSection = () => {
           <div className='col-md-4'>
             <h5>How To Reach Us</h5>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.9638589396844!2d73.77087981436766!3d18.5987521873549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfc27cfd7271%3A0x57e3a7df7a8e5e8c!2sPanna%20Computers%20%26%20Refurbished%20Laptops!5e0!3m2!1sen!2sin!4v1625913690641!5m2!1sen!2sin"
+              src="https://www.google.com/maps/dir//%23348,+2nd+Floor,+Between+10th+%26+11th+Cross,+Sampige+Rd,+Malleshwaram,+Bengaluru,+Karnataka+560003/@13.0015705,77.4890394,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae1715f4ff6d63:0x7206283a4f0ed0c!2m2!1d77.5714413!2d13.0015835?hl=en-in&entry=ttu"
               width="100%"
               height="200"
               style={{ border: 0 }}

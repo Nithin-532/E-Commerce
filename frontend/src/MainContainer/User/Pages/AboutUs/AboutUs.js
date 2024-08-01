@@ -1,13 +1,16 @@
+import { useNavigate } from "react-router-dom";
 import { IMAGES } from "../../../../assets";
 
 const AboutUs = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="container text-center">
       <div className="row mt-4">
         <div className="col">
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb">
-              <li className="breadcrumb-item"><a href="#">Home</a></li>
+              <li className="breadcrumb-item"><a style={{ textDecoration: 'underline', color: 'blue', cursor: 'pointer'}} onClick={() => navigate("../")}>Home</a></li>
               <li className="breadcrumb-item active" aria-current="page">About</li>
             </ol>
           </nav>
@@ -16,7 +19,7 @@ const AboutUs = () => {
       <div className="row">
         <div className="col">
           <h1>About Us</h1>
-          <p>Panna Computer offers quality pre-owned devices that are best priced in the market. We source reliable brands such as Apple, Dell, Microsoft, HP and Lenovo, and offer 90 days replacement warranty – just for the peace of mind!</p>
+          <p>Buy&SellLaptops offers quality pre-owned devices that are best priced in the market. We source reliable brands such as Apple, Dell, Microsoft, HP and Lenovo, and offer 90 days replacement warranty – just for the peace of mind!</p>
         </div>
       </div>
       <div className="row mb-5 mt-5">
@@ -44,7 +47,7 @@ const AboutUs = () => {
       <div className="row text-center my-4 mb-5 mt-5">
         <div className="col-md-4">
           <h4>Recycle</h4>
-          <p>Panna Computer provides clean, safe and secure removal of redundant IT assets. We help organizations reclaim the value, back from retired equipment and safely dispose of any regulated electronics waste.</p>
+          <p>Our laptops provides clean, safe and secure removal of redundant IT assets. We help organizations reclaim the value, back from retired equipment and safely dispose of any regulated electronics waste.</p>
         </div>
         <div className="col-md-4">
           <h4>Refurbish</h4>

@@ -3,6 +3,8 @@ import "./MainPage.css";
 import { data } from "../../../../store/store";
 import DealCard from "../../../../Components/Deal/DealCard";
 import { UserContext } from "../../User";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const ChevronIcon = (
   <svg
@@ -56,7 +58,7 @@ export default function MainPage() {
   useEffect(() => {
     console.log(data);
     console.log(text);
-    const updatedData = data.filter(val => val.name.includes(text));
+    const updatedData = data.filter(val => val.name.toLowerCase().includes(text.toLowerCase()));
     console.log(updatedData)
     setNewData(updatedData);
   }, [text])
@@ -143,7 +145,7 @@ export default function MainPage() {
         </div>
         <div
           className="container text-center"
-          style={{ padding: 0, maxWidth: "100%" }}
+          style={{ padding: 0, width: "100%", maxWidth: '100vw', overflowX: 'hidden' }}
         >
           <div className="row row-cols-2 row-cols-xl-3 row-cols-xxl-4">
             {newData && newData.map((item, i) => (

@@ -4,8 +4,8 @@ import "./SecondHeader.css";
 const SecondHeader = ({ isOpen, navigate }) => {
   return (
     <div className={`second-header ${isOpen ? 'open' : 'closed'} d-md-flex ps-md-5 align-items-center`}>
-      <StyledComponent>
-        <a onClick={() => navigate("/")}>Home</a>
+      <StyledComponent onClick={() => navigate("/")}>
+        <a>Home</a>
       </StyledComponent>
       {/* <div className="btn-group">
         <button type="button" className="btn styled-component dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,25 +41,25 @@ const SecondHeader = ({ isOpen, navigate }) => {
           <li><a className="dropdown-item" href="#">Graphic Card</a></li>
         </ul>
       </div> */}
-      <StyledComponent>
-        <a onClick={() => navigate("/aboutUs")}>About Us</a>
+      <StyledComponent onClick={() => navigate("/main")}>
+        <a>All Products</a>
       </StyledComponent>
-      <StyledComponent>
-        <a>FAQ's</a>
+      <StyledComponent onClick={() => navigate("/aboutUs")}>
+        <a>About Us</a>
       </StyledComponent>
       {/* <StyledComponent>
         <a>Blog</a>
       </StyledComponent> */}
-      <StyledComponent>
-        <a onClick={() => navigate("/contact")}>Contact</a>
+      <StyledComponent onClick={() => navigate("/contact")}>
+        <a>Contact</a>
       </StyledComponent>
     </div>
   )
 }
 
-const StyledComponent = ({ children }) => {
+const StyledComponent = ({ onClick, children }) => {
   return (
-    <div className="styled-component">
+    <div className="styled-component" onClick={onClick}>
       {children}
     </div>
   )
